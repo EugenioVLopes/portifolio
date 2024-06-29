@@ -40,7 +40,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Olá! Eu sou Eugênio, um desenvolvedor Next.js do Brasil.
+            Olá! Eu sou Eugênio, um estudante de Engenharia da Computação e desenvolvedor do Brasil.
           </p>
 
           <a href="#about">
