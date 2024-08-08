@@ -13,6 +13,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
+import toast from "react-hot-toast";
 
 export const BentoGrid = ({
   className,
@@ -72,6 +73,7 @@ export const BentoGridItem = ({
     const text = "eugenio.lopes.090@ufrn.edu.br";
     navigator.clipboard.writeText(text);
     setCopied(true);
+    toast.success("Email copiado!");
   };
 
   return (
