@@ -43,11 +43,12 @@ const Hero = () => {
             Olá! Eu sou Eugênio, um estudante de Engenharia da Computação e desenvolvedor do Brasil.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Veja meu trabalho"
               icon={<FaLocationArrow className="text-white" />}
               position="right"
+              
             />
           </a>
         </div>
